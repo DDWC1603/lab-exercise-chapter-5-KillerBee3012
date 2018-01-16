@@ -1,4 +1,5 @@
-//finish up this program.thanks.
+//Name : Aidil Suffian Bin Abu Bakar (A17DW2253)
+//Udated
 
 #include <iostream>
 #include <iomanip>
@@ -9,9 +10,9 @@ void ombakOmbak(int repeat=3,int height=5,int up=2,int down=2)
 {
 	while(repeat >0)
 	{
-		for(/*up*/)
+		for(int i=1;i<=up;i++/*up*/)
 		cout<<setw(height)<<right<<"+"<<endl;
-		for(/*down*/)
+		for(int i=1;i<=down;i++/*down*/)
 		cout<<"+"<<endl;
 		repeat --;
 	}
@@ -23,5 +24,14 @@ void OmbakKeluar()
 {
 
 	cout<<"\nwaveDemo\n";
-	petakPelik();
+	ombakOmbak();
+}
+
+void OmbakKeluar();
+
+int main ()
+
+{
+	OmbakKeluar();
+	
 }
